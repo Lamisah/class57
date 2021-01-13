@@ -1,0 +1,55 @@
+body{
+    padding-top: 800px;
+    margin: 0;
+}
+#welcome{
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+        color:white;
+    display:table;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    opacity: 0.83;
+}
+h1{
+    font-size: 40px;
+    font-weight: 300;
+    font-family: monospace;
+    text-align: center;
+}
+.parallax-inner{
+ display:table-cell;
+    position:relative;
+    text-align: center;
+    vertical-align: middle;
+}
+.profile{
+    border-radius: 50%;
+    width:170px;
+     margin-bottom:50px;
+    
+}
+h2{
+    font-size: 30px;
+    font-weight: 300;
+    font-family: cursive;
+}
+.line{
+    width: 70px;
+        height:6px;
+    background-color: black;
+    margin: 8px auto;
+}
+p{
+max-width: 450px;
+    margin: 20px auto;
+    font-size: 17px;
+    line-height: 1.5;
+    font-family: fantasy;
+}
